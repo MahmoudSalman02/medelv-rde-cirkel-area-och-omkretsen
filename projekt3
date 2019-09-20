@@ -1,0 +1,42 @@
+using System;
+
+namespace ConsoleApp4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+                double radie = 2.4;
+                Console.WriteLine("Cirkelns omkrets: " + CirkelOmkrets(radie));
+                Console.WriteLine("Cirkelns area: " + CirkelArea(radie));
+
+
+            Console.WriteLine("skriv först tal ");
+            string strnr1 = Console.ReadLine()
+                double tal1 = double.Parse(strnr1);
+            Console.WriteLine("skriv andra tal ");
+            string strnr2 = Console.ReadLine()
+                double tal2 = double.Parse(strnr2);
+            Console.WriteLine("skriv tredje tal ");
+            string strnr3 = Console.ReadLine()
+                double tal3 = double.Parse(strnr3);
+        }
+        static double CirkelOmkrets(double radie)
+        {
+            double omkrets = radie * 2 * 3.14;
+            return omkrets;
+
+        }
+
+        static double CirkelArea(double radie)
+        {
+
+            double Area = radie * radie * 3.14;
+            return Area;
+        }
+        static double medelvärde(double tal1,double tal2,double tal3)
+                       
+
+        }
+    }
+
